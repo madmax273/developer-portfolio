@@ -74,8 +74,8 @@ export default function Contact() {
                     <Mail className="h-5 w-5 mr-3 mt-0.5 text-muted-foreground" />
                     <div>
                       <p className="font-medium">Email</p>
-                      <a href="mailto:punit@example.com" className="text-sm text-muted-foreground hover:text-primary">
-                        punit@example.com
+                      <a href="mailto:punitay273@gmail.com" className="text-sm text-muted-foreground hover:text-primary">
+                        punitay273@gmail.com
                       </a>
                     </div>
                   </div>
@@ -84,8 +84,8 @@ export default function Contact() {
                     <Phone className="h-5 w-5 mr-3 mt-0.5 text-muted-foreground" />
                     <div>
                       <p className="font-medium">Phone</p>
-                      <a href="tel:+1234567890" className="text-sm text-muted-foreground hover:text-primary">
-                        +1 (234) 567-890
+                      <a href="tel:+918306579277" className="text-sm text-muted-foreground hover:text-primary">
+                        +91 8306579277
                       </a>
                     </div>
                   </div>
@@ -94,7 +94,7 @@ export default function Contact() {
                     <MapPin className="h-5 w-5 mr-3 mt-0.5 text-muted-foreground" />
                     <div>
                       <p className="font-medium">Location</p>
-                      <p className="text-sm text-muted-foreground">Mumbai, India</p>
+                      <p className="text-sm text-muted-foreground">Gandhinagar, Gujarat, India</p>
                     </div>
                   </div>
                 </div>

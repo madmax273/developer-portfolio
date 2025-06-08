@@ -10,15 +10,29 @@ export default function TechStack() {
       { name: "React", icon: "⚛️" },
       { name: "Next.js", icon: "▲" },
       { name: "TypeScript", icon: "TS" },
+      { name: "JavaScript", icon: "JS" },
       { name: "Tailwind CSS", icon: "🌊" },
       { name: "Framer Motion", icon: "🔄" },
+      { name: "Embla Carousel", icon: "🛍️" },
+      { name: "Radix UI", icon: "🌈" },
+      { name: "zod", icon: "✨" },
+
     ],
     backend: [
       { name: "Node.js", icon: "🟢" },
       { name: "FastAPI", icon: "⚡" },
+      { name: "Django", icon: <img src="/django.svg" alt="Django" className="h-6 w-6" /> },
+      { name: "Flask", icon: <img src="/flask.svg" alt="Flask" className="h-6 w-6" /> },
       { name: "Express", icon: "🚂" },
       { name: "MongoDB", icon: "🍃" },
-      { name: "PostgreSQL", icon: "🐘" },
+      { name: "MySQL", icon: "🐘" },
+      { name: "PostgreSQL", icon: <img src="/postgresql.svg" alt="PostgreSQL" className="h-6 w-6" /> },
+      { name: "Redis", icon: <img src="/redis.svg" alt="Redis" className="h-6 w-6" /> },
+      { name: "AWS", icon: <img src="/aws.svg" alt="AWS" className="h-6 w-6" /> },
+      { name: "Heroku", icon: <img src="/heroku.svg" alt="Heroku" className="h-6 w-6" /> },
+      { name: "GitHub", icon: <img src="/github.svg" alt="GitHub" className="h-6 w-6" /> },
+      { name: "Bitbucket", icon: <img src="/bitbucket.svg" alt="Bitbucket" className="h-6 w-6" /> },
+      { name: "Docker", icon: "🐳" },
     ],
     tools: [
       { name: "Git", icon: "🔄" },
@@ -26,6 +40,7 @@ export default function TechStack() {
       { name: "VS Code", icon: "📝" },
       { name: "Figma", icon: "🎨" },
       { name: "Vercel", icon: "▲" },
+      { name: "PowerAutomate", icon: "🔥" },
     ],
   }
 

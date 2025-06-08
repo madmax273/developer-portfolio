@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, ArrowDown } from "lucide-react"
+import { Github, Linkedin, ArrowDown, Instagram, Mail } from "lucide-react"
 import { motion } from "framer-motion"
 import Link from "next/link"
 
@@ -59,15 +59,27 @@ export default function Hero() {
             className="mt-12 flex justify-center gap-6"
           >
             <Button asChild variant="ghost" size="icon">
-              <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/madmax273" target="_blank" rel="noopener noreferrer">
                 <Github className="h-6 w-6" />
                 <span className="sr-only">GitHub</span>
               </Link>
             </Button>
             <Button asChild variant="ghost" size="icon">
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://linkedin.com/in/punit-yadav-6012a4232/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-6 w-6" />
                 <span className="sr-only">LinkedIn</span>
+              </Link>
+            </Button>
+            <Button asChild variant="ghost" size="icon">
+              <Link href="mailto:punitay273@gmail.com" target="_blank" rel="noopener noreferrer">
+                <Mail className="h-6 w-6" />
+                <span className="sr-only">Email</span>
+              </Link>
+            </Button>
+            <Button asChild variant="ghost" size="icon">
+              <Link href="https://www.instagram.com/punitpy_27/" target="_blank" rel="noopener noreferrer">
+                <Instagram className="h-6 w-6" />
+                <span className="sr-only">Instagram</span>
               </Link>
             </Button>
           </motion.div>

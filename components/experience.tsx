@@ -17,7 +17,19 @@ export default function Experience() {
         "Collaborated with cross-functional teams to deliver features on schedule",
         "Optimized database queries, reducing response time by 25%",
       ],
-      skills: ["FastAPI", "React", "PostgreSQL", "Docker"],
+      skills: ["FastAPI", "React", "PostgreSQL", "Docker","Devops","AWS","CI/CD","Jenkins","Git","VectorDB","Pinecone"],
+    },
+    {
+      title: "Software Development Engineer",
+      company: "Decimal Point Analytics",
+      period: "Oct 2024 - Present",
+      description: [
+        "Developed and maintained RESTful APIs using FastAPI, improving data processing efficiency by 30%",
+        "Implemented responsive UI components with React and Material UI, enhancing user experience",
+        "Collaborated with cross-functional teams to deliver features on schedule",
+        "Optimized database queries, reducing response time by 25%",
+      ],
+      skills: ["FastAPI", "React", "Django","LLM","Redis","Automation","PowerAutomate","Backend Developement"]
     },
     // You can add more experiences in the future
   ]
@@ -53,7 +65,7 @@ export default function Experience() {
               className={`relative mb-12 md:w-1/2 ${index % 2 === 0 ? "md:pr-12 md:ml-0" : "md:pl-12 md:ml-auto"}`}
             >
               {/* Timeline dot */}
-              <div className="absolute top-5 left-0 md:left-auto md:right-0 w-5 h-5 rounded-full bg-primary transform translate-x-[-50%] md:translate-x-[50%]"></div>
+              <div className="absolute top-5 left-1/2 md:left-1/2 w-5 h-5 rounded-full bg-primary transform -translate-x-1/2 md:translate-x-1/2 md:-translate-y-1/2"></div>
 
               <Card className="glass-card hover:shadow-lg transition-all duration-300">
                 <CardHeader className="pb-2">

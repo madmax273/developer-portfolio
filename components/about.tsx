@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
 export default function About() {
-  const skills = ["React", "Next.js", "FastAPI", "Node.js", "MongoDB", "TypeScript"]
+  const skills = ["Python", "JavaScript","TypeScript","C++","Django","Flask","React", "Next.js", "FastAPI", "Node.js", "Express.js","MySQL","MongoDB","Redis","PostgreSQL","LLM","Vector Database","DevOps","Azure","Git","Docker","Vercel"]
 
   return (
     <section id="about" className="section-padding bg-muted/30">
@@ -29,7 +29,7 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <div className="relative w-full max-w-md mx-auto aspect-square rounded-full overflow-hidden border-4 border-primary/10">
-              <Image src="/placeholder.svg?height=400&width=400" alt="Punit Yadav" fill className="object-cover" />
+              <Image src="/profile-pic.jpg?height=400&width=400" alt="Punit Yadav" fill className="object-cover" />
             </div>
           </motion.div>
 
@@ -64,7 +64,7 @@ export default function About() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.3, delay: 0.1 * index }}
                   >
-                    <span className="px-4 py-2 rounded-full bg-primary/10 text-sm font-medium">{skill}</span>
+                    <span className="px-1.5 py-1 rounded bg-primary/10 text-sm font-medium">{skill}</span>
                   </motion.div>
                 ))}
               </div>
