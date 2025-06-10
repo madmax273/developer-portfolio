@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
 export default function About() {
-  const skills = ["Python", "JavaScript","TypeScript","C++","Django","Flask","React", "Next.js", "FastAPI", "Node.js", "Express.js","MySQL","MongoDB","Redis","PostgreSQL","LLM","Vector Database","DevOps","Azure","Git","Docker","Vercel"]
+  const skills = ["Python", "JavaScript","TypeScript","C++","Django","Flask","React", "Next.js", "FastAPI", "Node.js", "Express.js","MySQL","MongoDB","Redis","PostgreSQL","LLM","Vector Database","DevOps","Azure","Git","Docker","Vercel","PowerAutomate","AI Agents","RAG"]
 
   return (
     <section id="about" className="section-padding bg-muted/30">

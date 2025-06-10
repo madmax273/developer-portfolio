@@ -23,7 +23,7 @@ export default function TechStack() {
       { name: "FastAPI", icon: "⚡" },
       { name: "Django", icon: <img src="/django.svg" alt="Django" className="h-6 w-6" /> },
       { name: "Flask", icon: <img src="/flask.svg" alt="Flask" className="h-6 w-6" /> },
-      { name: "Express", icon: "🚂" },
+      { name: "Express", icon: "ex" },
       { name: "MongoDB", icon: "🍃" },
       { name: "MySQL", icon: "🐘" },
       { name: "PostgreSQL", icon: <img src="/postgresql.svg" alt="PostgreSQL" className="h-6 w-6" /> },

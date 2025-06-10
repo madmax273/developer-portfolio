@@ -10,29 +10,29 @@ import Link from "next/link"
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Doglelo.com",
       description:
         "A full-stack e-commerce platform with product listings, cart functionality, and payment integration.",
-      image: "/placeholder.svg?height=300&width=600",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "https://github.com",
-      live: "https://example.com",
+      image: "/doglelo.png?height=300&width=600",
+      tags: ["React", "HTML", "CSS", "javascript"],
+      github: "https://github.com/madmax273/Doglelo",
+      live: "https://doglelo.com",
     },
     {
-      title: "Task Management App",
+      title: "ToorGuide",
       description: "A collaborative task management application with real-time updates and team workspaces.",
-      image: "/placeholder.svg?height=300&width=600",
-      tags: ["Next.js", "FastAPI", "PostgreSQL", "WebSockets"],
-      github: "https://github.com",
-      live: "https://example.com",
+      image: "/toorGuide.png?height=300&width=600",
+      tags: ["React", "Node.js", "MongoDB", "express.js",],
+      github: "https://github.com/madmax273/campProject",
+      live: "https://toorguide.com",
     },
     {
-      title: "Weather Dashboard",
+      title: "Celebratr",
       description: "A weather dashboard that displays current and forecasted weather data with interactive maps.",
-      image: "/placeholder.svg?height=300&width=600",
-      tags: ["React", "TypeScript", "OpenWeather API", "Mapbox"],
-      github: "https://github.com",
-      live: "https://example.com",
+      image: "/celebratr.png?height=300&width=600",
+      tags: ["Next.js", "TypeScript", "Cloudinary", "Geolocation API","MongoDB","FastAPI","Redis","Docker","DevOps","AWS","Git","LLM"],
+      github: "https://github.com/madmax273/celebratr",
+      live: "https://celebratr.com",
     },
   ]
 
