@@ -23,7 +23,7 @@ export default function Projects() {
       description: "A collaborative task management application with real-time updates and team workspaces.",
       image: "/toorGuide.png?height=300&width=600",
       tags: ["React", "Node.js", "MongoDB", "express.js",],
-      github: "https://github.com/madmax273/campProject",
+      github: "https://github.com/madmax273/campProjecth",
       live: "https://toorguide.com",
     },
     {
