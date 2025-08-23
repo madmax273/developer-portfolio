@@ -12,25 +12,58 @@ export default function Experience() {
       company: "Decimal Point Analytics",
       period: "May 2023 - August 2023",
       description: [
-        "Developed and maintained RESTful APIs using FastAPI, improving data processing efficiency by 30%",
-        "Implemented responsive UI components with React and Material UI, enhancing user experience",
-        "Collaborated with cross-functional teams to deliver features on schedule",
-        "Optimized database queries, reducing response time by 25%",
+        "Developed and maintained a Timesheet Portal by building RESTful APIs using **FastAPI** and designing responsive UI components with **React.js** and **Node.js**.",
+        "Gained hands-on experience in DevOps by containerizing applications with **Docker** and automating a CI/CD pipeline using **Jenkins**.",
+        "Acquired foundational knowledge of cloud infrastructure on **AWS** and core concepts like networking and shell scripting.",
+        "Explored emerging technologies including **Hedera Hashgraph** and **Vector Databases (Pinecone)**, demonstrating a proactive learning approach.",
       ],
-      skills: ["FastAPI", "React", "PostgreSQL", "Docker","Devops","AWS","CI/CD","Jenkins","Git","VectorDB","Pinecone"],
+      skills: [
+        "React",
+        "Node.js",
+        "Docker",
+        "Jenkins",
+        "CI/CD",
+        "AWS",
+        "PostgreSQL",
+        "Git",
+        "Shell Scripting",
+        "Networking",
+        "Pinecone",
+        "Vector Databases",
+        "Hedera Hashgraph"
+      ]
     },
     {
       title: "Software Development Engineer",
       company: "Decimal Point Analytics",
       period: "Oct 2024 - Present",
       description: [
-        "Developed and maintained RESTful APIs using FastAPI, improving data processing efficiency by 30%",
-        "Implemented responsive UI components with React and Material UI, enhancing user experience",
-        "Collaborated with cross-functional teams to deliver features on schedule",
-        "Optimized database queries, reducing response time by 25%",
+        "**InfoPulse API:** Architected and developed a high-performance news aggregation platform using FastAPI, processing over 5000+ articles daily with real-time AI insights.",
+        "Engineered a scalable microservices architecture with Docker and Redis Queue (RQ) to handle 1000+ concurrent background tasks, reducing API response times to 200ms.",
+        "Integrated a hybrid database solution (PostgreSQL and MongoDB) with a Redis caching layer, reducing database queries by 40% and improving overall system performance.",
+        "**HR and Recruitment Automation:** Developed a multi-role HR Portal to automate processes like reimbursements and automated employee exit workflows with Python scripts and Power Automate.",
+        "Streamlined the recruitment process by integrating LLM to convert transcripts and extract key candidate information, automatically matching results to job descriptions.",
+        "Built and maintained core RESTful APIs, improving data processing efficiency by 30%, and implemented responsive UI components with React and Material UI."
       ],
-      skills: ["FastAPI", "React", "Django","LLM","Redis","Automation","PowerAutomate","Backend Developement"]
-    },
+      skills: [
+        "Python",
+        "FastAPI",
+        "React",
+        "Django",
+        "LLM",
+        "Redis",
+        "Docker",
+        "PostgreSQL",
+        "MongoDB",
+        "Automation",
+        "Power Automate",
+        "OpenAI GPT",
+        "LangChain",
+        "CI/CD",
+        "Microservices",
+        "Queue Systems"
+      ]
+    }
     // You can add more experiences in the future
   ]
 

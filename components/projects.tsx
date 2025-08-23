@@ -10,30 +10,63 @@ import Link from "next/link"
 export default function Projects() {
   const projects = [
     {
-      title: "Doglelo.com",
-      description:
-        "A full-stack e-commerce platform with product listings, cart functionality, and payment integration.",
-      image: "/doglelo.png?height=300&width=600",
-      tags: ["React", "HTML", "CSS", "javascript"],
-      github: "https://github.com/madmax273/Doglelo",
-      live: "https://doglelo.com",
+      title: "PDFier",
+      description: "web application designed to simplify PDF management with a powerful suite of tools and an integrated AI chat assistant. It allows users to effortlessly handle documents, from basic editing to advanced, AI-powered queries.",
+      image: "/PDFier.png?height=300&width=600",
+      tags: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Radix UI",
+        "Tailwind CSS",
+        "Zustand",
+        "FastAPI",
+        "Python",
+        "LangChain",
+        "Pinecone",
+        "MongoDB",
+        "Supabase",
+        "JWT",
+        "Docker",
+        "Vercel",
+        "OpenAI GPT",
+        "Google AI",
+        "Retrieval-Augmented Generation (RAG)",
+        "BackgroundTasks",
+        "PostgreSQL"
+      ],
+      github: "https://github.com/madmax273/PDFier_frontend",
+      github_backend: "https://github.com/madmax273/PDFier_backend",
+      live: "https://pdfier-frontend1.vercel.app/",
+    },
+    {
+      title: "Celebratr",
+      description: "An event management platform designed for corporate events, seamlessly connecting vendors and their clients in various cities, facilitating a streamlined booking process and providing the best services available. ",
+      image: "/celebratr.png?height=300&width=600",
+      tags: ["Next.js", "TypeScript", "Cloudinary", "Geolocation API","MongoDB","FastAPI","Redis","Docker","DevOps","AWS","Git","LLM"],
+      github: "https://github.com/CELEBRATR/CELEBRATR-FE",
+      github_backend: "https://github.com/CELEBRATR/CELEBRATR-BE",
+      live: "https://celebratr.com",
     },
     {
       title: "ToorGuide",
       description: "A collaborative task management application with real-time updates and team workspaces.",
       image: "/toorGuide.png?height=300&width=600",
-      tags: ["React", "Node.js", "MongoDB", "express.js",],
-      github: "https://github.com/madmax273/campProjecth",
+      tags: ["Node.js", "MongoDB", "express.js","HTML","CSS","javascript","MERN Stack"],
+      github: "https://github.com/madmax273/campProject",
       live: "https://toorguide.com",
     },
     {
-      title: "Celebratr",
-      description: "A weather dashboard that displays current and forecasted weather data with interactive maps.",
-      image: "/celebratr.png?height=300&width=600",
-      tags: ["Next.js", "TypeScript", "Cloudinary", "Geolocation API","MongoDB","FastAPI","Redis","Docker","DevOps","AWS","Git","LLM"],
-      github: "https://github.com/madmax273/celebratr",
-      live: "https://celebratr.com",
+      title: "Doglelo.com",
+      description:
+        "An innovative platform that showcases diverse canine and feline species, enabling users to discover and connect with their furry friends, fostering a delightful experience for both parties.",
+      image: "/doglelo.png?height=300&width=600",
+      tags: ["React", "HTML", "CSS", "javascript"],
+      github: "https://github.com/madmax273/Doglelo",
+      live: "https://doglelo.com",
     },
+
+
   ]
 
   return (
@@ -91,6 +124,14 @@ export default function Projects() {
                       Code
                     </Link>
                   </Button>
+                  {project.github_backend && (
+                  <Button asChild variant="ghost" size="sm">
+                    <Link href={project.github_backend} target="_blank" rel="noopener noreferrer">
+                      <Github className="mr-2 h-4 w-4" />
+                      Backend
+                    </Link>
+                  </Button>
+                  )}
                   <Button asChild variant="ghost" size="sm">
                     <Link href={project.live} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="mr-2 h-4 w-4" />
