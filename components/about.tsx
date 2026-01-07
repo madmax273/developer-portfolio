@@ -29,7 +29,7 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <div className="relative w-full max-w-md mx-auto aspect-square rounded-full overflow-hidden border-4 border-primary/10">
-              <Image src="/profile-pic.jpg?height=400&width=400" alt="Punit Yadav" fill className="object-cover" />
+              <Image src="/profile-pic.jpeg?height=400&width=400" alt="Punit Yadav" fill className="object-cover" />
             </div>
           </motion.div>
 
